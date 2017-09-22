@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/poptext"
+        android:layout_width="225px"
+        android:layout_height="281px"
+        android:layout_x="53px"
+        android:layout_y="44px"
+        android:text="This is my new PopUp Window "
+        android:textColor="@color/white"
+        android:textSize="18sp" >
+    </TextView>
+
+    <Button
+        android:id="@+id/widget41"
+        android:layout_width="234px"
+        android:layout_height="wrap_content"
+        android:layout_x="49px"
+        android:layout_y="319px"
+        android:text="OK"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans" >
+    </Button>
+
+</LinearLayout>

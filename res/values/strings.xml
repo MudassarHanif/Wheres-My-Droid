@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="enter_phone_text">Enter Phone Number:</string>
+    <string name="app_name">Wheres My Droid</string>
+    <string name="sim_settings_text">Sim Settings</string>
+    <string name="prefFileName">wheresMyDroidPrefsFile</string>
+    <string name="send_sms_btn_caption">Send SMS</string>
+    <string name="sim_settings_btn_caption">Go To Sim Settings</string>
+    <string name="sim_number_label">Sim Number:</string>
+    <string name="phone_number_label">Phone Number:</string>
+    <string name="send_mms_btn_caption">Send MMS</string>
+    <string name="delete_contacts_btn_caption">Delete All Contacts</string>
+    <string name="erase_sms_inbox_btn_caption">Erase All SMS</string>
+    <string name="erase_records_text">Wipe Out Data</string>
+    <string name="erase_rec_attention_word_text">Attention Word</string>
+    <string name="activty_name">GPS Setting</string>
+    <string name="attention_word_text">Attention Word:</string>
+    <string name="frequency_text">Frequency:</string>
+    <string name="email_text">Email Address:</string>
+    <string name="phone_text">Phone Number:</string>
+    <string name="back_button_caption">Go Back</string>
+    <string name="ok_button_caption">OK</string>
+    <string name="erase_rec_setting_text">Wipe Phone Data Settings</string>
+    <string name="open_gps_setting_text">Gps Settings</string>
+    <string name="get_content_history_text">Get Content History</string>
+    <string name="get_content_history_attention_word_text">Attention Word</string>
+        
+</resources>

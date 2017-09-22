@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/control_settings_parent_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/attentionWordLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/eraseRecSettingsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical|fill_vertical" >
+
+        <TextView
+            android:id="@+id/eraseRecSettingsTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true" 
+            android:text="@string/erase_rec_setting_text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:id="@+id/openGpsSettingsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:focusable="true" >
+
+        <TextView
+            android:id="@+id/openGpsSettingsTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true" 
+            android:text="@string/open_gps_setting_text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/getHistoryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/getHistoryTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get History"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/silentDialLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/silentDialTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silent Dial Settings"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/silentPickTLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/silentPickTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silent Pickup Settings"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+</LinearLayout>
